@@ -1,11 +1,16 @@
 Package: CANS
-Title: What the Package Does (One Line, Title Case)
+Title: Cluster Analysis Of Nucleotide Sequences
 Version: 0.0.0.9000
 Authors@R: 
     person("Fedor", "Tsvetov", , "Ottokore@mail.ru", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: Implements methods for cluster analysis of nucleotide sequences:
+    hierarchical clustering, k-means, DBSCAN and spectral method. Provides 
+    imitation model of nucleotide sequences.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Imports: 
+    stats,
+    stringdist,
+    dendextend
