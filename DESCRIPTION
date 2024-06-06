@@ -14,3 +14,5 @@ Imports:
     stats,
     stringdist,
     dendextend
+URL: https://github.com/0ttokore/CANS
+BugReports: https://github.com/0ttokore/CANS/issues
