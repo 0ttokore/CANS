@@ -33,7 +33,7 @@ CANS_imitation <- function(number_of_sequences = 100, sequences_length = 80, num
     return(print("Randomness have to be in the range from 0 to 1!"))
   }
 
-  sequences <- vector(mode = "list", length = number_of_sequences * number_of_clusters)
+  sequences <- matrix(NA, nrow = number_of_sequences * number_of_clusters, ncol = 1)
   current_cluster <- 1
 
   for (i in 1:number_of_clusters) {
